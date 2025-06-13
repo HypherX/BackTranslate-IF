@@ -1,0 +1,38 @@
+[
+    {
+        "Content": [
+            {
+                "Character Level": ["letters frequency", "letters position", "include letters", "forbidden letters", "start identifier", "end identifier", "delimiting identifier", "end punctuation", "exclude punctuation", "no punctuation", "uppercase", "lowercase"]
+            },
+            {
+                "Word Level": ["words frequency", "words position", "include words", "forbidden words", "start words", "end words", "phrase frequency", "phrase position", "include phrase", "forbidden phrase", "start phrase", "end phrase", "capital words"]
+            },
+            {
+                "Sentence Level": ["sentences frequency", "sentences position", "include sentences", "forbidden sentences", "start sentences", "end sentences", "response language"]
+            }
+        ]
+    },
+    {
+        "Format": [
+            {
+                "format": ["json", "markdown", "xml", "table", "title", "choose from"]
+            }
+        ]
+    },
+    {
+        "Length": [
+            {
+                "Character Level": ["at most characters", "at least characters", "range characters", "exact length characters"]
+            },
+            {
+                "Word Level": ["at most words", "at least words", "range words", "exact length words", "exact placeholders"]
+            },
+            {
+                "Sentence Level": ["at most sentences", "at least sentences", "range sentences", "exact length sentences"]
+            },
+            {
+                "Paragraph Level": ["at most paragraphs", "at least paragraphs", "range paragraphs", "exact length paragraphs", "at most bullets", "at least bullets", "range bullets", "exact length bullets"]
+            }
+        ]
+    }
+]
